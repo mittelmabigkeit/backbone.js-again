@@ -6,17 +6,17 @@ var Person = Backbone.Model.extend({
     defaults: {
         name: 'Evgeniy',
         age: 19,
-        job: 'president'
+        job: 'president',
+        words: 'Hello,World'
     }
 });
 
 var PersonView = Backbone.View.extend({
-    //initialize: function () {
-    //  //console.log(this.model)
-    //},
-    tagName: 'li',
+    tagName: 'div',
+    className: 'TOP',
+    id: 'STAN',
     render: function () {
-        this.$el.html(this.model.get('name') + '(' + this.model.get('age') + ') - ' + this.model.get('job'));
+        this.$el.html(this.model.get('words'));
     }
 });
 
