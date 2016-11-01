@@ -38,10 +38,10 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44078946" vertical-offset="461" max-vertical-offset="918">
-              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.7763158" vertical-offset="580" max-vertical-offset="935">
+              <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
               <folding>
-                <marker date="1478009757233" expanded="true" signature="878:928" placeholder="..." />
+                <marker date="1478010980137" expanded="true" signature="895:945" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -71,8 +71,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
-    <option name="y" value="526" />
+    <option name="x" value="207" />
+    <option name="y" value="431" />
     <option name="width" value="1299" />
     <option name="height" value="440" />
   </component>
@@ -159,7 +159,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="526" width="1299" height="440" extended-state="1" />
+    <frame x="207" y="431" width="1299" height="440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -222,10 +222,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44078946" vertical-offset="461" max-vertical-offset="918">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.7763158" vertical-offset="580" max-vertical-offset="935">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
           <folding>
-            <marker date="1478009757233" expanded="true" signature="878:928" placeholder="..." />
+            <marker date="1478010980137" expanded="true" signature="895:945" placeholder="..." />
           </folding>
         </state>
       </provider>

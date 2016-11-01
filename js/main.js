@@ -26,7 +26,7 @@ var Person = Backbone.Model.extend({
 var PersonView = Backbone.View.extend({
     tagName: 'li',
 
-    template: _.template('<%=name%> (<%=age%>) - <%=job%>'),
+    template: _.template('<strong><%=name%></strong> (<%=age%>) - <%=job%>'),
 
     initialize: function() {
         this.render();
@@ -34,8 +34,9 @@ var PersonView = Backbone.View.extend({
 
     render: function() {
         //this.$el.html(this.model.get('name') + ' (' + this.model.get('age') + ') - ' + this.model.get('job'));
-        this.$el.html(this.template({age:40, job:'слесарь'}));
-        //this.$el.html(this.template(this.model.toJSON()));
+        //this.$el.html(this.template({age:40, job:'слесарь'}));
+        this.$el.html(this.template(this.model.toJSON()));
+        $(document.body).append(this.el);
     }
 });
 
