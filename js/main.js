@@ -7,7 +7,11 @@ var Person = Backbone.Model.extend({
         name: 'Evgeniy',
         age: 19,
         job: 'president',
-        words: 'Hello,World'
+        words: 'Hello,World',
+        myname: 'Artem',
+        myage: 19,
+        myjob: 'lord',
+        mywords: 'Hail Satan'
     }
 });
 
@@ -26,7 +30,8 @@ var Person = Backbone.Model.extend({
 var PersonView = Backbone.View.extend({
     tagName: 'li',
 
-    template: _.template('<strong><%=name%></strong> (<%=age%>) - <%=job%>'),
+    template: _.template('<strong>Меня зовут <%=name%>, мне <%=age%> лет, моя профессия <%=job%> и я говорю - <%=words%> !</strong>'),
+    mytemplate: _.template('<strong></br>Меня зовут <%=myname%>, мне <%=myage%> лет, моя профессия <%=myjob%> и я говорю - <%=mywords%> !</strong>'),
 
     initialize: function() {
         this.render();
@@ -35,7 +40,7 @@ var PersonView = Backbone.View.extend({
     render: function() {
         //this.$el.html(this.model.get('name') + ' (' + this.model.get('age') + ') - ' + this.model.get('job'));
         //this.$el.html(this.template({age:40, job:'слесарь'}));
-        this.$el.html(this.template(this.model.toJSON()));
+        this.$el.html(this.template(this.model.toJSON()) + this.mytemplate(this.model.toJSON()));
         $(document.body).append(this.el);
     }
 });
